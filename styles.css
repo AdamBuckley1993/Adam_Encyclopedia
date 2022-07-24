@@ -1,0 +1,8 @@
+body {
+    background-color: orange;
+}
+header {
+    background-color: pink;
+    color: blue;
+    justify-content: center;
+}
