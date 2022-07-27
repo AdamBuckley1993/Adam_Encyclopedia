@@ -7,8 +7,12 @@ Dead Cow Nom-Nom Section
 .topnav #myLinks {
     display: none;
 }
+.menulink {
+    background-color: gold;
+    color: purple;
+    border: 5px solid chartreuse;
+}
 .topnav a {
-    color: gold;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -18,4 +22,7 @@ Dead Cow Nom-Nom Section
     background: chartreuse;
     display: block;
     
+}
+#myLinks {
+    background-color: chartreuse;
 }

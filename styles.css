@@ -4,5 +4,139 @@ body {
 header {
     background-color: pink;
     color: blue;
-    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.about {
+    background-color: red;
+    color: yellow;
+    font-size: 18px;
+}
+.contact_us {
+    background-color: cyan;
+    color: magenta;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    border: 6px solid green;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px dashed brown;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: salmon;
+    color: chocolate;
+    padding: 12px 20px silver;
+    border: 4px indigo;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: sienna;
+}
+.container {
+    border-radius: 5px;
+    background-color: seagreen;
+    padding: 20px;
+}
+.dad_jokes {
+    padding: 12px 20px crimson;
+    margin: 12px 20px orangered;
+    background-color: coral;
+    color: fuchsia;
+    text-decoration: underline;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+@keyframes example {
+    0%   {background-color: red;}
+    12.5% {background-color: orange;}
+    25% {background-color: yellow;}
+    37.5% {background-color: green;}
+    50% {background-color: blue;}
+    62.5% {background-color: purple;}
+    75% {background-color: pink;}
+    87.5% {background-color: brown;}
+    100% {background-color: indigo;}
+}
+.animated_circle {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 4px solid black;
+    background-color: orange;
+    animation-name: none;
+    animation-duration: 4s;
+}
+.inspirational_quotes {
+    background-color: green;
+    color: cyan;
+    border: solid teal;
+    padding: 4px solid turquoise;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    text-decoration: wavy;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+      }
+    }
+
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.feel-good_stories {
+    background-color: tomato;
+    color: navy;
+    padding: 4px solid ivory;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
 }
