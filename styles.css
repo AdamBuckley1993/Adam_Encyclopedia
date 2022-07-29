@@ -140,3 +140,28 @@ input[type=submit]:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
 }
+.flex-container {
+    display: flex;
+    background-color: khaki;
+}
+.flex-container > div {
+    background-color: olive;
+    color: seashell;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: hotpink;
+    padding: 10px;
+}
+.grid-item {
+    background-color: aquamarine;
+    color: darkblue;
+    border: 1px solid darkmagenta;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
